@@ -134,9 +134,9 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-   
+    background-color: var(--orng);
     background-image: url(images/bg1.png);
-    background-size: cover;
+    
    
     
     
