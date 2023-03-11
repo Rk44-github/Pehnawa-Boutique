@@ -134,14 +134,8 @@ header .fa-bars{
     display: flex;
     align-items: center;
     min-height: 100vh;
-    /* background:url(../images/home-bg.jpg) no-repeat;
-    background-size: cover;
-    background-position: center; */
-    /* background-color: var(--orng);
-    background-image: url(../images/bg-2.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
-    
+   
+    background-image: url(../images/bg-2.jpg); background-size: cover;
    
     
     
