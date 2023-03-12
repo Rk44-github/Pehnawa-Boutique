@@ -666,13 +666,16 @@ header .fa-bars{
     .home{
         margin: 4em 0 0 0 ;
         background-color: var(--orng);
-        background-image: url(./images/dollar-gill-768-mobile-1.png) !important; 
+        background-image: url(./images/768-mobile-1.png) !important; 
+        background-size: cover;
          
         
          
          
          
      }
+
+     
 
     header .fa-bars{
         display: block;
@@ -737,6 +740,7 @@ header .fa-bars{
         margin: 4em 0 0 0 ;
         background-color: var(--orng);
         background-image: url(./images/dollar-gill-standing-mobile-2.png) !important; 
+        background-size: cover;
          
         
          
