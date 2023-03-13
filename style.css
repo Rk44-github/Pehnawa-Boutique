@@ -38,6 +38,11 @@ html{
     overflow-x: hidden;
 }
 
+a{
+     color: #000000;
+}
+
+
 section{
     padding:2rem 9%;
 }
@@ -389,7 +394,7 @@ header .fa-bars{
 .order .order-content p{
 
     font-size: 2rem;
-    line-height: 1.8em;
+    line-height: 2em;
     letter-spacing: 0.05em;
 
 }
@@ -398,6 +403,19 @@ header .fa-bars{
     
     width: 100%;
     margin-top: 5em;
+}
+.social-p{
+    margin-top: 2em;
+}
+ .social-icons a{
+    margin-top: 1em;
+    font-size: 4rem;
+    color: black;
+    margin-left: 1.5rem;
+}
+
+.social-icons a:hover{
+    scale: 1.4;
 }
 
 /* ------------- /Order section -----------------   */
@@ -480,6 +498,7 @@ header .fa-bars{
 .contact .row .address p{
     
     font-size: 2rem;
+    line-height: 1.8em;
 }
 
 .contact .row{
@@ -666,9 +685,11 @@ header .fa-bars{
     .home{
         margin: 4em 0 0 0 ;
         background-color: var(--orng);
-        background-image: url(./images/768-mobile-1.png) !important; 
+        background-image: url(./images/768-mobile-2.png) !important; 
         background-size: cover;
-         
+        background-position: 0% ;
+        background-repeat: no-repeat;
+        
         
          
          
@@ -739,7 +760,7 @@ header .fa-bars{
     .home{
         margin: 4em 0 0 0 ;
         background-color: var(--orng);
-        background-image: url(./images/dollar-gill-standing-mobile-2.png) !important; 
+        background-image: url(./images/dollar-gill-standing-mobile-1.png) !important; 
         background-size: cover;
          
         
