@@ -275,7 +275,7 @@ header .fa-bars{
 
 
 
-.col-1 .img-box{
+/* .col-1 .img-box{
     padding: 20%;
     display: flex;
     justify-content: center;
@@ -283,23 +283,33 @@ header .fa-bars{
     
     
     background-color: rgb(241, 154, 40);
-}
+} */
 .col-1 .pro-img{
-    width: 80%;
+    width: 100%;
+}
+
+
+.col-1{
+    display: grid;
+    margin-bottom: 1rem;
+   
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    background-size: contain;    
 }
 
 
 
 
- .col-1{
+ /* .col-1{
     display: grid;
     margin-bottom: 1rem;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
     background-size: contain;    
-}
-
+} */
+/* 
 .medium{
     grid-row: span 2;
     grid-column: span 2;
@@ -327,36 +337,36 @@ header .fa-bars{
 }
 
 .one{
-    background-image: url(./images/img-1.png);
+    background-image: url(./images/new-edit-7.png);
     
     
     
 }
 
 .two{
-    background-image: url(./images/dress-15.jpg);
+    background-image: url(./images/new-edit-Casual-wear-mint.png);
     
 }
 
 .three{
-    background-image: url(./images/dress-14.jpg);
+    background-image: url(./images/new-edit-Casual-wear.png);
     
 }
 
 .four{
-    background-image: url(./images/dress-12.jpg);
+    background-image: url(./images/new-edit-sage-embroidery.png);
     
 }
 
 .five{
-    background-image: url(./images/dress-22.jpg);
+    background-image: url(./images/new-edit-green-embroidery.png);
     
 }
 
 .six{
-    background-image: url(./images/dress-5.jpg);
+    background-image: url(./images/new-edit-red-embroidery.png);
     
-}
+} */
 
 .one,.two,.three,.four,.five,.six{
     border-radius: 10px;
@@ -783,5 +793,33 @@ header .fa-bars{
         flex-direction: column;
        
     }
+
+}
+
+@media (max-width:768px){
+ 
+    .col-1{
+        display: grid;
+        margin-bottom: 1rem;
+       
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+        background-size: contain;    
+    }
+    
+
+}
+
+@media (max-width:425px){
+ 
+    .col-1{
+        display: grid;
+        margin-bottom: 1rem;
+       
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+        background-size: contain;    
+    }
+    
 
 }
