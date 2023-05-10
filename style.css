@@ -140,7 +140,7 @@ header .fa-bars{
     align-items: center;
     min-height: 100vh;
     background-color: var(--orng);
-    background-image: url(./images/bg1.png);
+    background-image: url(./images/bg-5.png);
     
    
     
@@ -154,22 +154,23 @@ header .fa-bars{
 
 .home .content h3{
     font-size: 8rem;
-    color:black;
+    color: white;
 }
 
 .home .content span{
     font-size: 3.5rem;
-    color:white;
+    color: white;
     padding:1rem 0;
     line-height: 1.5;
 }
 
 .home .content p{
     font-size: 1.5rem;
-    color:#000000;
+    color: white;
     padding:1rem 0;
     line-height: 1.5;
 }
+
 
 /* -------------- About Section ----------------- */
 
@@ -700,7 +701,7 @@ header .fa-bars{
     .home{
         margin: 4em 0 0 0 ;
         background-color: var(--orng);
-        background-image: url(./images/768-mobile-2.png) !important; 
+        background-image: url(./images/PB-768px-bg-2.png) !important; 
         background-size: cover;
         background-position: 0% ;
         background-repeat: no-repeat;
@@ -775,7 +776,7 @@ header .fa-bars{
     .home{
         margin: 4em 0 0 0 ;
         background-color: var(--orng);
-        background-image: url(./images/dollar-gill-standing-mobile-1.png) !important; 
+        background-image: url(./images/Pb-bg-468px-mobile-5.png) !important; 
         background-size: cover;
          
         
